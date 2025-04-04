@@ -21,16 +21,21 @@ An intelligent, voice-enabled web application that facilitates communication bet
 ### 🔧 Backend Setup:
 
 1. *Install dependencies*:
+ 
     pip install flask vosk deep-translator openai opencv-python firebase-admin torch SpeechRecognition pyttsx3
    
-3. *Setup Firebase*:
+2. *Setup Firebase*:
+ 
     Add firebase_credentials.json to your root directory.
+   
     Enable Firestore in your Firebase project.
 
 3. *Download VOSK Model*:
+ 
     Download the English model from: Vosk Models Extract and update the MODEL_DIR path in backend2 (1).py.
 
 4. *Set OpenAI API Key*:
+ 
     Replace "your_openai_api_key" in the backend file with your actual key.
 
 ## Run Backend:
@@ -38,11 +43,16 @@ An intelligent, voice-enabled web application that facilitates communication bet
 ### 🌐 Frontend Setup
 
 1. *Install dependencies (if using a Vite or CRA React setup)*:
+
     npm install
-    Start frontend development server:
-      npm run dev
+
+2. *Start frontend development server*:
+
+    npm run dev
+
     or
-      npm start
+
+    npm start
    
 ⚠ Notes
 Make sure your microphone is enabled for voice features.
