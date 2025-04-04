@@ -41,7 +41,7 @@ An intelligent, voice-enabled web application that facilitates communication bet
     npm install
     Start frontend development server:
       npm run dev
-    # or
+    or
       npm start
    
 ⚠ Notes
